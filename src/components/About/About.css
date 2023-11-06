@@ -1,0 +1,43 @@
+.skill-item {
+  font-size: large;
+  font-weight: bolder;
+}
+.skill-title {
+  font-size: xx-large;
+  margin: 4px;
+  font-weight: bolder;
+}
+.skill-subtitle {
+  font-size: small;
+  font-weight: lighter;
+}
+.react {
+  color: blue;
+}
+.node {
+  color: green;
+}
+.js {
+  color: yellow;
+}
+.android {
+  color: rgb(90, 244, 52);
+}
+.htmlandcss {
+  color: orangered;
+}
+.spring {
+  color: #6db33f;
+}
+.mysql {
+  color: #3366cc;
+}
+.java {
+  color: #ff8c00;
+}
+.python {
+  color: #008b8b;
+}
+.kotlin {
+  color: #a00ca8;
+}

@@ -2,6 +2,7 @@ import { Divider } from "@mui/material";
 import AboutTitle from "./AboutTitle";
 import CircularImageView from "./CircularImageView";
 import Story from "../MyStory/Story";
+import Skills from "./SkillTable";
 
 function About(props) {
   return (
@@ -78,6 +79,7 @@ function About(props) {
           />
         </div>
       </div>
+      <Skills />
     </div>
   );
 
