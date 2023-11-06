@@ -1,0 +1,22 @@
+.brand-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Replace with your custom font */
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    color: #007bff;
+    /* Customize the text color */
+    text-transform: uppercase;
+    /* Uppercase the text */
+    letter-spacing: 2px;
+    /* Add letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add a text shadow */
+}
+
+.default-nav-item {
+    transition: filter 0.3s ease;
+}
+
+.blured-link {
+    filter: blur(3px);
+}

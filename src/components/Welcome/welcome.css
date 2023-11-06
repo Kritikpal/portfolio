@@ -1,0 +1,45 @@
+.welcome {
+    padding: 10px;
+}
+
+.welcome-content {
+    font-weight: bold;
+    color: white;
+    max-width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.lineStyle {
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 150px;
+}
+
+.welcome-subhead {
+    max-width: 300px;
+}
+
+.teaser-content {
+    max-width: 200px;
+    color: white;
+    padding: 5px;
+}
+
+.teaser-btn {
+    margin-right: 3px;
+    color: white;
+}
+
+.custom-container {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://assets-global.website-files.com/622fbc5a718ac3417fcd3d75/6230e4ff69a8f142114d0d12_home-hero-bg-image-developer-webflow-ecommerce-template.png");
+    padding: 10% 5%;
+    background-position: center;
+}
+
+.teaser-btn.i {
+    margin: 2px;
+}
