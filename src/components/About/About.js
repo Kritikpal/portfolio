@@ -1,6 +1,7 @@
 import { Divider } from "@mui/material";
 import AboutTitle from "./AboutTitle";
 import CircularImageView from "./CircularImageView";
+import Story from "../MyStory/Story";
 
 function About(props) {
   return (
@@ -48,6 +49,32 @@ function About(props) {
             altText="User Profile"
             borderRadius="50%"
             radius="500px"
+          />
+        </div>
+      </div>
+      <div className="row m-5">
+        <div className="col-lg-6 col-md-12">
+          <Story
+            title={"How I started as a web developer"}
+            body={
+              "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui" +
+              "officia deserunt mollit anim id est laborum aute irure dolor in" +
+              "reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+            }
+            image={
+              "https://assets-global.website-files.com/622fbc5a718ac3417fcd3d75/62335be970b9542f0f60b9c6_my-story-image-2-developer-webflow-ecommerce-template.jpg"
+            }
+          />
+        </div>
+        <div className="col-lg-6 col-md-12">
+          <Story
+            title={"My first website design back in 2001"}
+            body={
+              "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+            }
+            image={
+              "https://assets-global.website-files.com/622fbc5a718ac3417fcd3d75/62335be9ecc98ad8c7535a00_my-story-image-1-developer-webflow-ecommerce-template.jpg"
+            }
           />
         </div>
       </div>
