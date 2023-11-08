@@ -1,4 +1,4 @@
-import { Divider, Typography, colors } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
 import CircularImageView from "../About/CircularImageView";
 import FollowMe from "../Social/FollowMe";
 import ProgressButton from "../Teaser/ProgressButton";

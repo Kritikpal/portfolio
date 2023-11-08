@@ -28,7 +28,7 @@ const getInputForm = (name, label, icon) => {
 
   return <div className="mt-4">
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-      <i class={`${icon} fa-lg text-white mx-4`}></i>
+      <i className={`${icon} fa-lg text-white mx-4`}></i>
       <TextField
         id={name}
         fullWidth
