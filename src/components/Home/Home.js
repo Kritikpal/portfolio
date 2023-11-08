@@ -5,7 +5,7 @@ import Welcome from "../Welcome/Welcome";
 function Home() {
     return <div>
         <Welcome />
-        <Skills></Skills>
+        <Skills />
         <ProjectList />
     </div>;
 }

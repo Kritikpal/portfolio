@@ -1,7 +1,9 @@
+import { Typography } from "@mui/material";
 import { useState } from "react";
 import { Button, ProgressBar } from "react-bootstrap";
 function ProgressButton(props) {
     const [progress, setProgress] = useState(0);
+    const [color, setColor] = useState('white');
     const [margin, setMagin] = useState('5px');
 
     const arrowStyle = {
@@ -11,10 +13,12 @@ function ProgressButton(props) {
     const handelMouse = () => {
         setProgress(100)
         setMagin('10px')
+        setColor('red')
     }
     const removeProgress = () => {
         setProgress(0)
         setMagin('5px')
+        setColor('white')
     }
 
     return <div>
@@ -23,10 +27,10 @@ function ProgressButton(props) {
             className='teaser-btn mt-2'
             onMouseEnter={handelMouse}
             onMouseLeave={removeProgress} >
-            <h5>
+            <Typography fontWeight={'bold'} color={color} variant="h5">
                 {props.text}
                 <i style={arrowStyle} className="fa-solid fa-arrow-right"></i>
-            </h5>
+            </Typography>
 
         </Button>
         <div className='py-2' style={{ maxWidth: '200px' }}>

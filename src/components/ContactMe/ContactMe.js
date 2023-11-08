@@ -18,7 +18,10 @@ const ContactMePage = (props) => {
           <FollowMe />
         </div>
         <div className="col">
-          <Card className="bg-dark">
+          <Card className="bg-dark"
+            style={{
+              borderRadius: '30px'
+            }}>
             <CardContent>
               <ContactForm />
             </CardContent>
