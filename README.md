@@ -1,6 +1,6 @@
 # portfolio
 
-One Of the bestPortfolio temlates for new learners 
+One Of the best Portfolio temlates for new learners 
 Easy to learn...
 
 Its Free....!
