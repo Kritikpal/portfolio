@@ -10,7 +10,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" Component={Home} />
+        {/* <Route path="/" Component={Home} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/home" Component={Home} />
         <Route path="/contact" Component={ContactMePage} />
         <Route path="/about" Component={About} />
