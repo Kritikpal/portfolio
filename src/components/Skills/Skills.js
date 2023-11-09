@@ -1,4 +1,5 @@
 import Skill from "./Skill";
+import './Skills.css'
 function Skills() {
     const html = {
         color: "red"
@@ -13,17 +14,22 @@ function Skills() {
         <div className="h1 text-white">
             My extensive list of skills
         </div>
-        <div className='row '>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-                <Skill color={html} icon='fa-html5' title='HTML & CSS' desc='The building blocks of web design, styling your content beautifully.' />
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-                <Skill color={js} icon='fa-js' title='JAVA Script' desc='The language of interactivity, powering dynamic web experiences' />
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12'>
-                <Skill color={react} icon='fa-react' title='REACT JS' desc='Crafting user interfaces with ease, a popular choice for frontend development.' />
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <Skill color={html} icon='fa-html5' title='HTML & CSS' desc='The building blocks of web design, styling your content beautifully.' />
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <Skill color={js} icon='fa-js' title='JAVA Script' desc='The language of interactivity, powering dynamic web experiences' />
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <Skill color={react} icon='fa-react' title='REACT JS' desc='Crafting user interfaces with ease, a popular choice for frontend development.' />
+                </div>
             </div>
         </div>
+
+
+
     </div>;
 
 }

@@ -1,17 +1,20 @@
-import ProgressButton from './ProgressButton';
-function Teaser(props) {
+import { Typography } from "@mui/material";
+import ProgressButton from "./ProgressButton";
 
-    return <div className="teaser-content ">
-        <h5>{props.title}</h5>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipiscing
-            elit leo quis ullamcorper quis id elementum convallis lacus gravida.
+
+function TeaserContent(props) {
+    return (
+        <div className="teaser-content">
+            <Typography variant="h5" gutterBottom>
+                {props.title}
+            </Typography>
+            <Typography variant="body1">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id elementum convallis lacus gravida.
+            </Typography>
+            <ProgressButton text="Learn More" />
+            <hr />
         </div>
-        <ProgressButton text='Learn More' />
-
-        <hr />
-
-    </div>
+    );
 }
 
-export default Teaser;
+export default TeaserContent;

@@ -2,11 +2,50 @@
   font-size: 60px;
   font-weight: bolder;
 }
+
+.btn-box {
+  justify-content: center;
+  display: flex;
+  align-items: start;
+  min-height: 200px;
+}
+
+.btn-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.btn-box3 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.btn-box4 {
+  display: flex;
+  align-items: start;
+  align-items: start;
+  min-height: 200px;
+}
+
 .contact-small-heading {
   font-size: 40px;
   font-weight: bolder;
 }
+
 .contact-sub-heading {
   font-size: large;
   font-weight: normal;
+}
+
+.mybtn {
+  translate: all 1s ease;
+}
+
+
+.mybtn:hover {
+  transform: translateX(200px);
 }

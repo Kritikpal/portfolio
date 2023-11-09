@@ -1,0 +1,20 @@
+.scrollable-skills {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-container .col-lg-4 {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    /* Adjust the spacing between skills as needed */
+}
+
+/* Add this if you want to remove the margin from the last skill */
+.skills-container .col-lg-4:last-child {
+    margin-right: 0;
+}
