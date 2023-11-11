@@ -1,11 +1,7 @@
 import React from "react";
-import { TextField, Button, Grid, Icon, InputAdornment, Box, Typography } from "@mui/material";
+import { TextField, Button, Box, Typography } from "@mui/material";
 import { useState } from "react";
 import "./Contact.css"
-
-
-
-
 function ContactForm() {
   const [clasname, setClass] = useState("btn-box");
   const [isFilled, setFilled] = useState(false);
@@ -83,10 +79,7 @@ function ContactForm() {
 }
 
 
-
-
 const getInputForm = (name, label, icon, value, change) => {
-
   return <div className="mt-4">
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <i className={`${icon} fa-lg text-white mx-4`}></i>
